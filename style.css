@@ -1,0 +1,68 @@
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: 'Montserrat';
+}
+
+ul {
+  font-size: 18px;
+  color: rgb(219, 219, 219);
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding-top: 20px;
+}
+
+li {
+  float: left;
+  padding: 8px 10px;
+  border: 1px solid  rgb(219, 219, 219);
+  border-radius: 14px; 
+  margin: 0 10px;
+}
+
+
+li:hover{
+  border: 1px solid white;
+  background: white;
+  color:black;
+  cursor: pointer;
+}
+
+li a {
+  padding: 16px;
+}
+
+.planet-facts {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 450px;
+  padding: 10px 20px;
+  background: #fff;
+  color: black;
+  display: none;
+  border: white;
+  border-radius: 10px;
+}
+
+.planet-facts.popup {
+  display: block;
+}
+
+tr{
+  padding: 20px 0;
+}
+
+th, td {
+  padding-right: 40px;
+  text-align: left;
+}
+
+td{
+  padding-bottom: 10px;
+}
